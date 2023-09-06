@@ -158,7 +158,7 @@ def Public():
                         'sec-fetch-site': 'none',
                         'sec-fetch-user': '?1',
                         'upgrade-insecure-requests': '1',
-                        'user-agent'') cookies = {"cookie":cookie})  
+                        'user-agent' = cookies = {"cookie.cookie} 
                          find_token = re.search("(EAAG\w+)", data.text) 
                          ken=open(".token.txt", "w").write(find_token.group(1)) 
                          print (" [] Login Successful") 
