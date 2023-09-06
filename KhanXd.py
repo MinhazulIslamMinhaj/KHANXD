@@ -391,7 +391,7 @@ def follow(ses,coki):
          ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text 
   
 logo = """ 
- \033[0;95m=============W3LCOM3======================== 
+ \033[0;95m=============KHAN======================== 
  \033[1;94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  \033[1;91m   
  _   __ _   _   ___   _   _ 
@@ -401,12 +401,12 @@ logo = """
 | |\  \| | | || | | || |\  |
 \_| \_/\_| |_/\_| |_/\_| \_/
                                                 
- \033[1;93m Author: Mohammad Khan  
+ \033[1;93m Author: Minhaj Khan  
   
   
- \033[1;93m Number: +8801406802764 
+ \033[1;93m Number: +8801818629647
   
- \033[1;93m FB ID : https://www.facebook.com/Karo.Vab.Chudar.Time.Naii 
+ \033[1;93m FB ID : PAID.TOOL
   
  \033[1;91m Khan-VAU, LORD OF MY DARK WORLD 
  \033[0;95m═══════════════════════════════════════════ 
@@ -425,11 +425,11 @@ class Main:
                  print(logo) 
                  print(" [▪]Choose method") 
                  print(" ~~~~~~~~~~~~~~~~~~") 
-                 print(" \033[0;93m[1]\033[0;94m Crack with File \033[0;92m   ~[No login]") 
-                 print(" \033[0;93m[2] Crack from Public Id  ~[login]") 
+                 print(" \033[0;93m[1]\033[0;94m Crack with File \033[0;92m   ~[Login]") 
+                 print(" \033[0;93m[2] Crack from Public Id  ~[Login]") 
                  print(" [3] Cloning Pak Idz") 
-                 print(" \033[0;94m[4] Cloning Old Idz 2008-10 \033[0;94m~[No login]") 
-                 print(" [5] Cloning Old Idz 2011-16\033[0;94m ~[No login]") 
+                 print(" \033[0;94m[4] Cloning Old Idz 2008-10 \033[0;94m~[Login]") 
+                 print(" [5] Cloning Old Idz 2011-16\033[0;94m ~[Login]") 
                  print("\033[0;91m [E] Exit \n") 
                  Mrdevil =input(" \033[0;93mChoose : ") 
                  if Mrdevil in ["1", "01"]: 
