@@ -142,7 +142,7 @@ def Public():
          elif pil in ['2','02']: 
                  try: 
                          cookie=input(" [+] Cookie : ") 
-                         data = requests.get(https://mbasic.facebook.com/
+                         data = requests.get(https//mbasic.facebook.com/
  headers = {                      
                         'accept-language': 'en-US,en;q=0.9',
                         'cache-control': 'max-age=0',
