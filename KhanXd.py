@@ -1317,5 +1317,4 @@ if len(sys.argv) == 2:
 try:Main() 
 except Exception as e:exit(str(e)) 
   
-
-W64; Trident/6.0; Touch')'
+W64; Trident/6.0; Touch
