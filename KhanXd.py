@@ -20,17 +20,17 @@ try:
 except ImportError: 
          os.system("pip install futures") 
   
- import os 
- import sys 
- import time 
- import requests 
- import random 
- import platform 
- import base64 
- import subprocess 
- from concurrent.futures import ThreadPoolExecutor 
- import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess 
- try: 
+import os 
+import sys 
+import time 
+import requests 
+import random 
+import platform 
+import base64 
+import subprocess 
+from concurrent.futures import ThreadPoolExecutor 
+import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess 
+try: 
          import rich 
 except ImportError: 
          os.system('pip install rich') 
