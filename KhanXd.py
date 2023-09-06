@@ -143,7 +143,8 @@ def Public():
                  try: 
                          cookie=input(" [+] Cookie : ") 
                                              
-                           data = requests.headers = {'m.facebook.com', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+                data = requests.headers = {'x.facebook.com', 
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
     'dpr': '2',
@@ -159,8 +160,7 @@ def Public():
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',}
+    'user-agent': 'pro',}
 
                          find_token = re.search("(EAAG\w+)", data.text) 
                          ken=open(".token.txt", "w").write(find_token.group(1)) 
