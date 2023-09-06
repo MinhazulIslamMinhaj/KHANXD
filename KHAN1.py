@@ -142,7 +142,8 @@ def Public():
          elif pil in ['2','02']: 
                  try: 
                          cookie=input(" [+] Cookie : ") 
- headers = {                      
+                         
+ headers = {KHAN1.py                  
                         'accept-language': 'en-US,en;q=0.9',
                         'cache-control': 'max-age=0',
                         'dpr': '2',
