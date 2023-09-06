@@ -39,17 +39,17 @@ except ImportError:
                  import rich 
          except ImportError: 
                  exit(' [×] Cant Install Rich Module, Try Manual Install (pip install rich)') 
- from rich.table import Table as me 
- from rich.console import Console as sol 
- from bs4 import BeautifulSoup as sop 
- from concurrent.futures import ThreadPoolExecutor as tred 
- from rich.console import Group as gp 
- from rich.panel import Panel as nel 
- import base64 
- from rich import print as cetak 
- from rich.markdown import Markdown as mark 
- from rich.columns import Columns as col 
- from urllib.parse import quote 
+from rich.table import Table as me 
+from rich.console import Console as sol 
+from bs4 import BeautifulSoup as sop 
+from concurrent.futures import ThreadPoolExecutor as tred 
+from rich.console import Group as gp 
+from rich.panel import Panel as nel 
+import base64 
+from rich import print as cetak 
+from rich.markdown import Markdown as mark 
+from rich.columns import Columns as col 
+from urllib.parse import quote 
  # UA LIST 
  #ugen2=open('frec.txt','r').read().splitlines() 
  #ugen=open('m.txt','r').read().splitlines() 
@@ -84,7 +84,7 @@ try:
 def clear(): 
          os.system('clear') 
  # BACK 
- def back(): 
+def back(): 
          login() 
   
  Mrdevil="mrd-" 
@@ -93,7 +93,7 @@ def clear():
  myid=uuid.uuid4().hex[:10].upper() 
 try: 
          key1 = open('/data/data/com.termux/files/usr/bin/.MRD-cov', 'r').read() 
- except: 
+except: 
          kok=open('/data/data/com.termux/files/usr/bin/.MRD-cov', 'w') 
          kok.write(myid+imt) 
          kok.close() 
@@ -1307,14 +1307,14 @@ class Main:
   
                  self.loop +=1 
   
- if len(sys.argv) == 2: 
+if len(sys.argv) == 2: 
          if sys.argv[1] == "--help" or sys.argv[1] == "-h": 
                  helpnote() 
          else: 
                  Main() 
   
- try:Main() 
- except Exception as e:exit(str(e)) 
+try:Main() 
+except Exception as e:exit(str(e)) 
   
   
- W64; Trident/6.0; Touch)",
+W64; Trident/6.0; Touch)",
