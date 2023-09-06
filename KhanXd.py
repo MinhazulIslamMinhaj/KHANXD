@@ -12,7 +12,7 @@ N = '\x1b[0m'
 import os 
 try: 
          import requests 
- except ImportError: 
+except ImportError: 
          os.system("pip install requests") 
   
 try: 
@@ -32,7 +32,7 @@ except ImportError:
  import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess 
  try: 
          import rich 
- except ImportError: 
+except ImportError: 
          os.system('pip install rich') 
          time.sleep(1) 
          try: 
